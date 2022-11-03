@@ -1,0 +1,50 @@
+@media screen and (max-width:480px) {
+  .header  {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    .right {
+        .menu {
+            gap: 1rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+    }
+
+  }
+  .dogs__top h1 {
+    margin: 0;
+  }
+  .adopcontent {
+    padding: 1rem;
+  }
+  .dogs__cards {
+    grid-template-columns: 1fr;
+    grid-template-areas: "perro1"
+    "perro2"
+    "perro3"
+    "perro4"
+    "perro5"
+    "perro6";
+    margin: auto;
+  }
+  .dog__card {
+    width: 100%;
+  }
+  .dog__img img{
+    width: 100%;
+  }
+.hero {
+    .maincontent {
+        .text {
+            .adporesp {
+                font-size: 4rem;
+            }
+        }
+      }
+}
+}

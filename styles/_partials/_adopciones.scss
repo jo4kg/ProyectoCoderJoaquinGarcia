@@ -1,0 +1,80 @@
+.dog__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+        border-radius: .75rem ;
+    }
+  }
+  .dogs__top{
+    margin-top: 10rem;
+    font-family: "Poiret One", cursive;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1{
+        padding: 1rem;
+        color: white;
+      }
+  }
+  .dogs__cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "perro1 perro2 perro3 perro4"
+    "perro5 perro5 perro6 perro6";
+    width: 50%;
+    margin: auto;
+    .perro1{
+        grid-area: perro1;
+      }
+      .perro2{
+        grid-area: perro2;
+      }
+      .perro3{
+        grid-area: perro3;
+      }
+      
+      .perro4{
+        grid-area: perro4;
+      }
+      
+      .perro5{
+        grid-area: perro5;
+      }
+      
+      .perro6{
+        grid-area: perro6;
+      }
+      .dog__card{
+        z-index: 0;
+        place-items: center;
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid rgba(255, 255, 255, 0.541);
+        border-radius: .75rem  ;
+        background-color: rgba(255, 255, 255, 0.212);
+        transition:  250ms;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        h3{
+            font-family: "Poiret One", cursive;
+            font-size: 1.5rem;
+            padding: .25rem;
+          }  
+          p{
+            font-family: "Poiret One", cursive;
+            font-size: 1.5rem;
+            padding: .25rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.705);
+          }
+    }
+  }

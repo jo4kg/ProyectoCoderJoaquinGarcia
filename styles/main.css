@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poiret+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none; }
+
+a {
+  color: white; }
+
+.hero .maincontent .text .boton, .formulario button {
+  font-family: "Bebas Neue", cursive;
+  border: 1px solid transparent;
+  background-color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border-color: rgba(0, 0, 0, 0.11);
+  box-shadow: 0 5px 15px #555555; }
+  .hero .maincontent .text .boton:hover, .formulario button:hover {
+    background-color: #2b8a2b;
+    transition: 0.3s; }
+
+.header {
+  box-shadow: 0 5px 15px #555555;
+  display: flex;
+  justify-content: center;
+  background-color: #cfcfcfce;
+  position: absolute;
+  width: 100%; }
+  .header .right {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .header .right .menu {
+      font-family: "Poiret One", cursive;
+      font-size: 1.7rem;
+      display: flex;
+      gap: 3rem; }
+      .header .right .menu a {
+        color: black; }
+        .header .right .menu a:hover {
+          color: white;
+          transition: 300ms; }
+  .header .logo {
+    width: 7rem;
+    cursor: pointer;
+    justify-content: flex-start; }
+
+.hero {
+  background: url(../images/wallpaper1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: fit-content;
+  display: flex;
+  flex-direction: column; }
+  .hero .maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10rem;
+    height: 90vh; }
+    .hero .maincontent .text {
+      display: flex;
+      width: fit-content;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .hero .maincontent .text h3 {
+        font-size: 7rem;
+        color: white;
+        font-family: "Bebas Neue", cursive;
+        text-shadow: 0 5px 15px #555555; }
+      .hero .maincontent .text h2 {
+        font-size: 4rem;
+        color: white;
+        font-family: "Bebas Neue", cursive;
+        text-shadow: 0 5px 15px #555555; }
+      .hero .maincontent .text p {
+        font-size: 1.5rem;
+        font-family: "Bebas Neue", cursive;
+        color: white;
+        text-shadow: 0 5px 15px #555555; }
+      .hero .maincontent .text .boton a {
+        color: #797979; }
+        .hero .maincontent .text .boton a:hover {
+          color: white; }
+
+.footercontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #aaaaaa;
+  padding: 1rem;
+  font-family: "Bebas Neue", cursive; }
+  .footercontent .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footercontent .redes span {
+      color: rgba(255, 255, 255, 0.678);
+      padding: 0 1rem; }
+    .footercontent .redes p {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.63); }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem; }
+  .formulario p {
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    text-shadow: 0 5px 15px #555555; }
+  .formulario button:hover {
+    background-color: #0a9e4d;
+    color: white;
+    transition: 300ms; }
+  .formulario input {
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.575);
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    border-radius: 0.25rem;
+    cursor: pointer; }
+    .formulario input:hover {
+      background-color: #d6d6d6; }
+
+.dog__img {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .dog__img img {
+    width: 100%;
+    border-radius: .75rem; }
+
+.dogs__top {
+  margin-top: 10rem;
+  font-family: "Poiret One", cursive;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .dogs__top h1 {
+    padding: 1rem;
+    color: white; }
+
+.dogs__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "perro1 perro2 perro3 perro4" "perro5 perro5 perro6 perro6";
+  width: 50%;
+  margin: auto; }
+  .dogs__cards .perro1 {
+    grid-area: perro1; }
+  .dogs__cards .perro2 {
+    grid-area: perro2; }
+  .dogs__cards .perro3 {
+    grid-area: perro3; }
+  .dogs__cards .perro4 {
+    grid-area: perro4; }
+  .dogs__cards .perro5 {
+    grid-area: perro5; }
+  .dogs__cards .perro6 {
+    grid-area: perro6; }
+  .dogs__cards .dog__card {
+    z-index: 0;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    border-radius: .75rem;
+    background-color: rgba(255, 255, 255, 0.212);
+    transition: 250ms;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; }
+    .dogs__cards .dog__card h3 {
+      font-family: "Poiret One", cursive;
+      font-size: 1.5rem;
+      padding: .25rem; }
+    .dogs__cards .dog__card p {
+      font-family: "Poiret One", cursive;
+      font-size: 1.5rem;
+      padding: .25rem;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.705); }
+
+@media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0; }
+    .header .right .menu {
+      gap: 1rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+  .dogs__top h1 {
+    margin: 0; }
+  .adopcontent {
+    padding: 1rem; }
+  .dogs__cards {
+    grid-template-columns: 1fr;
+    grid-template-areas: "perro1" "perro2" "perro3" "perro4" "perro5" "perro6";
+    margin: auto; }
+  .dog__card {
+    width: 100%; }
+  .dog__img img {
+    width: 100%; }
+  .hero .maincontent .text .adporesp {
+    font-size: 4rem; } }

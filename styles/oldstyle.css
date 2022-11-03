@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poiret+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+.hero {
+  background: url(../images/wallpaper1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  box-shadow: 0 5px 15px rgb(85, 85, 85);
+  display: flex;
+  justify-content: center;
+  background-color: #cfcfcfce;
+  position: absolute;
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  font-family: "Poiret One", cursive;
+  font-size: 1.7rem;
+  display: flex;
+  gap: 3rem;
+}
+.menu a {
+  color: black;
+}
+
+.menu a:hover {
+  color: rgb(255, 255, 255);
+  transition: 300ms;
+}
+
+.logo {
+  width: 7rem;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+
+.maincontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10rem;
+  height: 90vh;
+}
+
+.adopcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10rem;
+}
+
+.text {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text h3 {
+  font-size: 7rem;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 0 5px 15px rgb(85, 85, 85);
+}
+
+.text h2 {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 0 5px 15px rgb(85, 85, 85);
+}
+
+.text p {
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  text-shadow: 0 5px 15px rgb(85, 85, 85);
+}
+
+.boton {
+  font-family: "Bebas Neue", cursive;
+  border: 1px solid transparent;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border-color: rgba(0, 0, 0, 0.11);
+  box-shadow: 0 5px 15px rgb(85, 85, 85);
+}
+
+.boton:hover {
+  background-color: rgb(43, 138, 43);
+  color: white;
+  transition: 0.3s;  
+}
+
+.footercontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(170, 170, 170);
+  padding: 1rem;
+  font-family: "Bebas Neue", cursive;
+  
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.redes span {
+  color: rgba(255, 255, 255, 0.678);
+  padding: 0 1rem;
+}
+
+.footercontent p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.formulario p{
+  font-family: 'Fjalla One', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  text-shadow: 0 5px 15px rgb(85, 85, 85);
+}
+
+.formulario button{
+  font-family: "Bebas Neue", cursive;
+  border: 1px solid transparent;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.formulario button:hover{
+  background-color: rgb(10, 158, 77);
+  color: white;
+  transition: 300ms;
+}
+
+.formulario input{
+  border: 1px solid transparent;
+  background-color: rgba(255, 255, 255, 0.575);
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+}
+
+input {
+  margin: 0.1rem 0;
+  width: 10rem;
+  height: 1.5rem;
+}
+
+input:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+label {
+  font-family: "Bebas Neue", cursive;
+  margin: 0.4rem 0;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.dog__img img{
+  width: 100%;
+  border-radius: .75rem ;
+}
+
+.dogs__top{
+  font-family: "Poiret One", cursive;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dogs__top h1{
+  padding: 1rem;
+  color: white;
+}
+
+.dogs__cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem ;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "perro1 perro2 perro3 perro4"
+  "perro5 perro5 perro6 perro6";
+  width: 50%;
+  margin: auto;
+}
+
+.perro1{
+  grid-area: perro1;
+}
+
+.perro2{
+  grid-area: perro2;
+}
+
+.perro3{
+  grid-area: perro3;
+}
+
+.perro4{
+  grid-area: perro4;
+}
+
+.perro5{
+  grid-area: perro5;
+}
+
+.perro6{
+  grid-area: perro6;
+}
+
+.dog__card{
+  z-index: 0;
+  place-items: center;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.541);
+  border-radius: .75rem  ;
+  background-color: rgba(255, 255, 255, 0.212);
+  transition:  250ms;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.dog__img{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog__card h3{
+  font-family: "Poiret One", cursive;
+  font-size: 1.5rem;
+  padding: .25rem;
+}
+
+.dog__card p{
+  font-family: "Poiret One", cursive;
+  font-size: 1.5rem;
+  padding: .25rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+@media screen and (max-width:480px) {
+  .header  {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+  }
+  .menu {
+    gap: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .dogs__top h1 {
+    margin: 0;
+  }
+  .adopcontent {
+    padding: 1rem;
+  }
+  .dogs__cards {
+    grid-template-columns: 1fr;
+    grid-template-areas: "perro1"
+    "perro2"
+    "perro3"
+    "perro4"
+    "perro5"
+    "perro6";
+    margin: auto;
+  }
+  .dog__card {
+    width: 100%;
+  }
+  .dog__img img{
+    width: 100%;
+  }
+}
